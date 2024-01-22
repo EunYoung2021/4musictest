@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An online quiz to test your knowledge about different themes">
+    <meta name="keywords" content="quiz, trivia, pub quiz, movies trivia, music trivia, geography trivia, online pub quiz">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>교과서 음악 테스트</title>
+</head>
+<body>
+    <!--Header display the title and the stage icons-->
+    <header>
+        <h2 class="heading">교과서 음악 테스트</a></h2>
+        <div class="progress-area box">
+            <div data-type="music" class="stage music selected">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div data-type="movies" class="stage movies">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div data-type="geography" class="stage geography">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div data-type="final" class="stage final">
+                <i class="fas fa-lock"></i>
+            </div>
+        </div>
+    </header>
+    <!--Game area qhere the player status and questions are displayed-->
+    <section class="game-area box">
+        <div id="stage-type-area">
+            <h3 id="stage-name">여기서 문제가 나옵니다</h3>
+        </div>
+        <div id="question-container">
+            <div id="enter-data">
+                <p id="quest-para">이름을 넣어주세요</p>
+                <input id="player-name" type="text" placeholder="Yout Name Here"><br>
+                <button id="start" data-type="play" class="tutorial-btn">시작</button>
+            </div>
+            <button id='play-again' class='tutorial-btn hidden'>재시작</button>
+        </div>
+        <div id="player-status" class="hidden">
+            <span>Player: </span><span id="player"></span><br>
+            <span>Lives: </span><span id="lives"></span><br>
+            <span>Score: </span><span id="score">0</span>
+        </div>
+        <button id="next" data-type="next-btn" class="tutorial-btn hidden">다음</button>
+    </section>
+    <!--Empty section to separate the buttons from the game area-->
+    <div id="separator">
+    </div>
+
+    <!--Section where the buttons for multiple choice answers are displayed-->
+    <div class="multiple-choice box hidden">
+        <button class="info-answer-box btn">the answer text for this one</button>
+        <button class="info-answer-box btn">the answer text for this one</button>
+        <button class="info-answer-box btn">the answer text for this one</button>
+        <button class="info-answer-box btn">the answer text for this one</button>
+    </div>
+    <footer>
+        <p id="footer-text"><a href="" target="_blank" rel="noopener" aria-label=""><i class="fab fa-github"></i></a></p>
+    </footer>
+    <!--link to the script-->
+    <script src="assets/js/script.js"></script>
+    <!--font Awesome Script-->
+    <script src="https://kit.fontawesome.com/9167b451f3.js" crossorigin="anonymous"></script>
+</body>
+</html>
