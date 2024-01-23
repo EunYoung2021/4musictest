@@ -408,8 +408,8 @@ footer a{
 }
 @media screen and (max-width: 649px) {
     img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 
     .stage{
@@ -519,8 +519,8 @@ footer a{
         margin-left: 33.33%;
     }
     img{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
     #bgi{
         width: 96%;
