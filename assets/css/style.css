@@ -389,6 +389,8 @@ footer a{
     #bgi{
         width: 96%;
         height: 98vh;
+        
+        margin: 0;
     }
     
 }
