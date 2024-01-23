@@ -244,10 +244,11 @@ img {
 .multiple-choice{
     height: 11vh;
     
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     width: 42rem;
 }
 
