@@ -154,6 +154,7 @@ img {
 #stage-type-area{
     width: 100%;
     height: 10vh;
+    display: none;
 }
 
 #stage-name{
@@ -448,8 +449,8 @@ footer a{
         font-size: 80%;
     }
     #quest-para{
-        font-size: 75%;
-        
+        /* font-size: 75%; */
+        font-size: 70%;
     }
     .stage{
         width: 60px;
