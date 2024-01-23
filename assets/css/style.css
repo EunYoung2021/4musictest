@@ -493,7 +493,12 @@ footer a{
         
         margin: 0;
     }
-    
+    .multiple-choice{
+        grid-column-gap: 0px;
+        grid-row-gap: 83px;
+        /* width: 39rem; */
+        margin-top: 4.5rem;
+    }
 }
 
 /* smaller smartphones screens */
