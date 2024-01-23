@@ -5,6 +5,7 @@ body{
     /* background-color: #272727; //2024-01-22 수정 */
     background-image: url('../imgs/backGroundImage.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
     font-family: Poppins, sans-serif;
 }
