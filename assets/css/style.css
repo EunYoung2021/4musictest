@@ -157,7 +157,8 @@ img {
 
 /*--- General Game Area --*/
 .game-area{
-    background-color: #747474;
+    /* background-color: #747474; */
+    background-image: url('./imgs/backGroundImage.png');
     border-radius: 8px;
     height: 58vh;
     position: relative;
