@@ -3,7 +3,7 @@
 /*---Global Styling--*/
 body{
     /* background-color: #272727; //2024-01-22 수정 */
-    background-image: url('../imgs/backGroundImage.png') no-repeat center center;
+    background-image: url('../imgs/backGroundImage.png') no-repeat;
     background-size: cover;
     height: 100%;
     font-family: Poppins, sans-serif;
