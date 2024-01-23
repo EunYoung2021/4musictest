@@ -10,7 +10,12 @@ body{
     font-family: Poppins, sans-serif;
 }
 #bgi{
-    object-fit: contain;
+    /* object-fit: contain; */
+    width: 46%;
+    height: 98vh;
+
+    position: absolute;
+    margin-left: 25%;
 }
 
 a {
