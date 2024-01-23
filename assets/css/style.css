@@ -494,10 +494,10 @@ footer a{
         margin: 0;
     }
     .multiple-choice{
-        grid-column-gap: 0px;
-        grid-row-gap: 83px;
+        grid-column-gap: 4px;
+        grid-row-gap: 105px;
         /* width: 39rem; */
-        margin-top: 4.5rem;
+        margin-top: 7rem;
     }
 }
 
