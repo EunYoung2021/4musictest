@@ -16,6 +16,8 @@ body{
 
     position: absolute;
     margin-left: 25%;
+
+    z-index: -1;
 }
 
 a {
@@ -248,21 +250,22 @@ img {
     height: 100%;
     float: right;
     box-sizing: border-box;
-    background-color: #747474;
+    /* background-color: #747474; */
+    background-color: rgba(0, 0, 0, 0);
     text-align: center;
-    border: 5px solid;
+    /* border: 5px solid;
     border-color: #252525;
     border-radius: 8px;
-    background-image: linear-gradient(to right, #ff00ff , #14a76c);
+    background-image: linear-gradient(to right, #ff00ff , #14a76c); */
     font-size: 120%;
-    color: #fff;
+    /* color: #fff; */
 }
 
-.info-answer-box:hover{
+/* .info-answer-box:hover{
     border-color:#ff00ff;
     box-shadow: 0 0 0.9em #ff00ff;
     cursor: pointer;
-}
+} */
 .info-answer-box h4{
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
@@ -296,7 +299,7 @@ img {
     transition: all 0.5s;
     padding: 0.25em 1em;
     max-height: 497.65px;/*322.65px;*/
-    margin-top: 10rem;
+    margin-top: 14rem;
 }
 
 #quest-para{
