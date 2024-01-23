@@ -2,7 +2,8 @@
 
 /*---Global Styling--*/
 body{
-    background-color: #272727;
+    /* background-color: #272727; //2024-01-22 수정 */
+    background-image: url('../imgs/backGroundImage.png');
     font-family: Poppins, sans-serif;
 }
 
@@ -157,8 +158,7 @@ img {
 
 /*--- General Game Area --*/
 .game-area{
-    /* background-color: #747474; */
-    background-image: url('./imgs/backGroundImage.png');
+    /* background-color: #747474; //2024-01-22 수정*/
     border-radius: 8px;
     height: 58vh;
     position: relative;
