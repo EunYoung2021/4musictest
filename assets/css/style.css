@@ -243,6 +243,12 @@ img {
 
 .multiple-choice{
     height: 11vh;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 42rem;
 }
 
 .info-answer-box{
@@ -251,6 +257,7 @@ img {
     float: right;
     box-sizing: border-box;
     /* background-color: #747474; */
+    border: 0px;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     /* border: 5px solid;
