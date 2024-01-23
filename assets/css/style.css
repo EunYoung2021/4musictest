@@ -495,9 +495,11 @@ footer a{
     }
     .multiple-choice{
         grid-column-gap: 4px;
-        grid-row-gap: 105px;
+        grid-row-gap: 99px;
         /* width: 39rem; */
         margin-top: 7rem;
+
+        font-size: 1.5rem;
     }
 }
 
