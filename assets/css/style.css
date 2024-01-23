@@ -372,6 +372,12 @@ footer a{
     #right-check{
         font-size: 400%;
     }
+    #bgi{
+        width: 108%;
+        height: 104vh;
+        position: absolute;
+        margin: -1% -1%;
+    }
 
 }
 /* for tablets and big smartphones */
@@ -387,10 +393,10 @@ footer a{
         font-size: 100%;
     }
     #bgi{
-        width: 96%;
-        height: 98vh;
+        width: 102%;
+        height: 100vh;
         
-        margin: 0;
+        margin: -3% -3%;
     }
     
 }
