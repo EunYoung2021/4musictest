@@ -386,6 +386,10 @@ footer a{
     .info-answer-box{
         font-size: 100%;
     }
+    #bgi{
+        width: 96%;
+        height: 98vh;
+    }
     
 }
 @media screen and (max-width: 649px) {
