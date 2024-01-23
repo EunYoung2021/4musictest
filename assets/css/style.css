@@ -421,6 +421,12 @@ footer a{
     .game-area{
         height: 84vh;
     }
+    #bgi{
+        width: 96%;
+        height: 98vh;
+        
+        margin: 0;
+    }
 }
 /* smartphones average */
 @media screen and (max-width:450px) {
@@ -453,6 +459,12 @@ footer a{
     }
     .game-area{
         height: 48vh;
+    }
+    #bgi{
+        width: 96%;
+        height: 98vh;
+        
+        margin: 0;
     }
     
 }
@@ -497,5 +509,11 @@ footer a{
     img{
         width: 200px;
         height: 200px;
+    }
+    #bgi{
+        width: 96%;
+        height: 98vh;
+        
+        margin: 0;
     }
 }
