@@ -247,9 +247,10 @@ img {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    width: 42rem;
+    grid-column-gap: 80px;
+    grid-row-gap: 37px;
+    width: 40rem;
+    margin-top: 3rem;
 }
 
 .info-answer-box{
