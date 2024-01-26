@@ -298,7 +298,9 @@ img {
     align-items: center;
     justify-content: center;
 
-
+    /* 2024-01-26수정 */
+    position: absolute;
+    top: -3rem;
 }
 /*--here is where the questions are display--*/
 #enter-data{
