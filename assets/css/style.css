@@ -9,6 +9,12 @@ body{
     height: 100%;
     font-family: Poppins, sans-serif;
 }
+
+html{
+    background: url(/assets/imgs/backGroundImage.png) no-repeat center fixed;
+    background-size: cover;
+}
+
 #bgi{
     /* object-fit: contain; */
     width: 46%;
