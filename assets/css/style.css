@@ -13,7 +13,7 @@ body{
 }
 
 #bgi{
-    object-fit: contain;
+    object-fit: fill;
     width: 46%;
     height: 98vh;
 
@@ -493,7 +493,7 @@ footer a{
         height: 48vh;
     }
     #bgi{
-        width: 96%;
+        width: 91vw;
         height: 95vh;
         
         margin: 0;
