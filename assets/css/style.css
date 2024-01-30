@@ -10,17 +10,24 @@ body{
     width: 100vw;
     /* width: fit-content; */
     font-family: Poppins, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 #bgi{
-    object-fit: fill;
+    /* object-fit: fill;
     width: 46%;
     height: 98vh;
 
     position: absolute;
-    margin-left: 25rem;
+    margin-left: 25rem; */
 
     z-index: -1;
+    max-width: 100%;
 }
 
 a {
@@ -240,8 +247,10 @@ img {
 .box{
     box-sizing: border-box;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    margin-left: 4.5rem;
+    /* margin-right: auto; */
+    margin-right: 4.5rem;
 }
 
 .multiple-choice{
@@ -300,7 +309,7 @@ img {
 
     /* 2024-01-26수정 */
     position: absolute;
-    top: -3rem;
+    top: -7rem;
 }
 /*--here is where the questions are display--*/
 #enter-data{
@@ -314,7 +323,10 @@ img {
     transition: all 0.5s;
     padding: 0.25em 1em;
     max-height: 497.65px;/*322.65px;*/
-    margin-top: 14rem;
+    /* margin-top: 7rem; */
+    margin-top: 11rem;
+    /* margin-left: 9rem; */
+    margin-left: 9.5rem;
 }
 
 #quest-para{
@@ -471,6 +483,7 @@ footer a{
     #quest-para{
         /* font-size: 75%; */
         font-size: 70%;
+        width: 15rem;
     }
     .stage{
         width: 60px;
@@ -550,17 +563,17 @@ footer a{
         height: 100px;
     }
     #bgi{
-        width: 96%;
-        height: 98vh;
+        width: 100vw;
+        height: 100vh;
         
         margin: 0;
     }
     .multiple-choice{
         grid-column-gap: 4px;
-        grid-row-gap: 99px;
+        grid-row-gap: 1rem;
         /* width: 39rem; */
-        margin-top: 7rem;
+        margin-top: 20rem;
 
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }

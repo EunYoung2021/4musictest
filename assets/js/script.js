@@ -49,6 +49,7 @@ function startGame(name){
     stageTitles.innerHTML = currentStage.getAttribute('data-type');
     //set the  initial player stats for the game
     document.getElementById('player').textContent = playerName;
+    document.getElementById('player').style.display = 'none';
     updatePlayerLives(lives);
 
     //display the first question of music stage
