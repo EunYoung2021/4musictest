@@ -298,8 +298,9 @@ function displayQuestion(listQuestions, indx){
  */
 function checkValidName(inputName){
     if (inputName === ""){
-        alert('Please enter a name to play');
-        return false;
+        // alert('Please enter a name to play');
+        // return false;
+        return true;
     } else if (inputName.length > 9){
         alert('Your name can have max of 9 characters');
         return false;

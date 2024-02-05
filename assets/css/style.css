@@ -244,6 +244,7 @@ img {
     font-size: 90%;
 }
 #player-name{
+    display: none;
     height: 30px;
     /* width: 14rem; */
     width: 9rem;
