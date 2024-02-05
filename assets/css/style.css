@@ -228,6 +228,9 @@ img {
 }
 
 /*--Player Stats/Lifes--*/
+#player {
+    display: none;
+}
 #player-status{
     width: 14rem;
     color: black;

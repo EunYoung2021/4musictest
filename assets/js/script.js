@@ -151,7 +151,7 @@ function displayDead(){
  */
 function updatePlayerLives(lives){
     if(document.getElementById('player-status').classList.contains('hidden')){
-        // document.getElementById('player-status').classList.remove('hidden');
+        document.getElementById('player-status').classList.remove('hidden');
     }
     document.getElementById('lives').innerHTML = "";
     for (let i=0; i < lives;i++){
