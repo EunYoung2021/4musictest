@@ -422,9 +422,9 @@ footer a{
 @media screen and (max-width:780px) {
     #player-status{
         /* right: -3.7rem; */
-        right: -3rem;
+        right: -16rem;
         letter-spacing: 0.3mm;
-        top: 5rem;
+        top: -3rem;
     }
     .box{
         width: 80%;
