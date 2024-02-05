@@ -563,8 +563,9 @@ footer a{
         aspect-ratio: 2.1/5;
     }
     #question-container{
-        top: 35px;
-        margin-left: 63px;
+        /* top: 35px; */
+        top: 0px;
+        margin-left: 57px;
     }
     #quest-img{
         padding-left: 114px;
@@ -601,8 +602,8 @@ footer a{
     }
     #player-status{
         width: 3.5rem;
-        right: -18.5rem;
-        top: -2.6rem;
+        left: 258px;
+        top: -78.2px;
     }
     .game-area{
         height: 69vh;
@@ -623,11 +624,11 @@ footer a{
     }
     .multiple-choice{
         /* grid-column-gap: 4px; */
-        grid-column-gap: 75px;
-        grid-row-gap: 2rem;
+        grid-column-gap: 64px;
+        grid-row-gap: 31px;
         /* width: 39rem; */
-        margin-top: 2.5rem;
-        margin-left: 0.5rem;
+        margin-top: -53px;
+        margin-left: 7px;
 
         font-size: 1.5rem;
     }
@@ -639,5 +640,10 @@ footer a{
         width: 5rem;
         top: 7rem;
         left: 8rem;
+    }
+    #start{
+        width: 4rem;
+        margin-left: 125px;
+        margin-top: 35px;
     }
 }
