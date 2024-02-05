@@ -16,6 +16,7 @@ body{
     justify-self: center;
     min-height: 100vh;
     margin: 0;
+    justify-content: center;
 }
 
 #bgi{
